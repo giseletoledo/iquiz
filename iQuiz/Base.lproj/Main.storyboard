@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9yq-2f-Ld5">
-                                <rect key="frame" x="88" y="209" width="217" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9yq-2f-Ld5">
+                                <rect key="frame" x="88" y="374" width="217" height="104"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XJ-Uh-pZ0">
-                                <rect key="frame" x="64" y="390" width="265" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XJ-Uh-pZ0">
+                                <rect key="frame" x="64" y="531" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.45490196078431372" green="0.19607843137254902" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="lU9-y9-v8D"/>
@@ -30,18 +30,24 @@
                                     <backgroundConfiguration key="background"/>
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="botaoPressionado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXG-hn-IoZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.32156862745098036" green="0.11764705882352941" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5XJ-Uh-pZ0" firstAttribute="top" secondItem="9yq-2f-Ld5" secondAttribute="bottom" constant="42" id="53b-CD-lFe"/>
                             <constraint firstItem="9yq-2f-Ld5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IPy-mA-jbJ"/>
                             <constraint firstItem="5XJ-Uh-pZ0" firstAttribute="top" secondItem="9yq-2f-Ld5" secondAttribute="bottom" constant="53" id="Ku2-aS-pKz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5XJ-Uh-pZ0" secondAttribute="trailing" constant="64" id="WKT-vf-5iS"/>
+                            <constraint firstItem="9yq-2f-Ld5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bEi-rs-y49"/>
                             <constraint firstItem="5XJ-Uh-pZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="xuc-Oj-a98"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="botaoIniciarQuiz" destination="5XJ-Uh-pZ0" id="M3q-GT-VF3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
