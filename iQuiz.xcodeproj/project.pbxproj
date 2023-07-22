@@ -13,6 +13,7 @@
 		C158F69E2A6C21DA00A9388C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C158F69C2A6C21DA00A9388C /* Main.storyboard */; };
 		C158F6A02A6C21DC00A9388C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C158F69F2A6C21DC00A9388C /* Assets.xcassets */; };
 		C158F6A32A6C21DC00A9388C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C158F6A12A6C21DC00A9388C /* LaunchScreen.storyboard */; };
+		C158F6AB2A6C690800A9388C /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C158F69F2A6C21DC00A9388C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C158F6A22A6C21DC00A9388C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C158F6A42A6C21DC00A9388C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C158F69F2A6C21DC00A9388C /* Assets.xcassets */,
 				C158F6A12A6C21DC00A9388C /* LaunchScreen.storyboard */,
 				C158F6A42A6C21DC00A9388C /* Info.plist */,
+				C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C158F69B2A6C21DA00A9388C /* ViewController.swift in Sources */,
 				C158F6972A6C21DA00A9388C /* AppDelegate.swift in Sources */,
 				C158F6992A6C21DA00A9388C /* SceneDelegate.swift in Sources */,
+				C158F6AB2A6C690800A9388C /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
