@@ -15,6 +15,7 @@
 		C158F6A32A6C21DC00A9388C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C158F6A12A6C21DC00A9388C /* LaunchScreen.storyboard */; };
 		C158F6AB2A6C690800A9388C /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */; };
 		C158F6AF2A6CA08F00A9388C /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C158F6AE2A6CA08F00A9388C /* Questao.swift */; };
+		C158F6B12A6EA12A00A9388C /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C158F6B02A6EA12A00A9388C /* DesempenhoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C158F6A42A6C21DC00A9388C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		C158F6AE2A6CA08F00A9388C /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		C158F6B02A6EA12A00A9388C /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +62,34 @@
 		C158F6952A6C21DA00A9388C /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				C158F6B32A6ED6F500A9388C /* Model */,
+				C158F6B22A6ED6A000A9388C /* ViewController */,
 				C158F6962A6C21DA00A9388C /* AppDelegate.swift */,
 				C158F6982A6C21DA00A9388C /* SceneDelegate.swift */,
-				C158F69A2A6C21DA00A9388C /* ViewController.swift */,
 				C158F69C2A6C21DA00A9388C /* Main.storyboard */,
 				C158F69F2A6C21DC00A9388C /* Assets.xcassets */,
 				C158F6A12A6C21DC00A9388C /* LaunchScreen.storyboard */,
 				C158F6A42A6C21DC00A9388C /* Info.plist */,
-				C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */,
-				C158F6AE2A6CA08F00A9388C /* Questao.swift */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		C158F6B22A6ED6A000A9388C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C158F6B02A6EA12A00A9388C /* DesempenhoViewController.swift */,
+				C158F6AA2A6C690800A9388C /* QuestaoViewController.swift */,
+				C158F69A2A6C21DA00A9388C /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C158F6B32A6ED6F500A9388C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C158F6AE2A6CA08F00A9388C /* Questao.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +167,7 @@
 				C158F6972A6C21DA00A9388C /* AppDelegate.swift in Sources */,
 				C158F6992A6C21DA00A9388C /* SceneDelegate.swift in Sources */,
 				C158F6AF2A6CA08F00A9388C /* Questao.swift in Sources */,
+				C158F6B12A6EA12A00A9388C /* DesempenhoViewController.swift in Sources */,
 				C158F6AB2A6C690800A9388C /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
