@@ -10,7 +10,7 @@ Projeto do curso de iOS da Alura, criação de telas e navegação utilizando St
 | :fire: Desafio     | [Figma](https://www.figma.com/file/arNzZp0KyM55CKpvlZjUOL/iQuiz?type=design&node-id=1%3A54&mode=design&t=IwrkeKUTkk90t3Yy-1)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/giseletoledo/iquiz/blob/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%202023-07-24%20at%2015.20.21.png?text=imagem+do+meu+projeto#vitrinedev)
+![](https://github.com/giseletoledo/iquiz/blob/main/Simulator_Screenshot_iPhone_14_Pro.jpg?text=imagem+do+meu+projeto#vitrinedev)
 
 
 <p align="center">
